@@ -13,7 +13,7 @@ public class Main {
             System.out.print("Enter the number corresponding to your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline character
-            
+
             if (choice != 1 && choice != 2) {
                 System.out.println("Invalid choice. Please select either 1 or 2.");
             }
