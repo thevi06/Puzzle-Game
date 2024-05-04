@@ -10,3 +10,6 @@ public class Main {
             System.out.println("Choose an option:");
             System.out.println("1. Load from benchmark_series");
             System.out.println("2. Load from text_file");
+            System.out.print("Enter the number corresponding to your choice: ");
+            choice = scanner.nextInt();
+            scanner.nextLine(); // Consume newline character
