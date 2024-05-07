@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.List;
 public class Main {
     public static void main(String[] args) {
@@ -18,3 +19,6 @@ public class Main {
                 System.out.println("Invalid choice. Please select either 1 or 2.");
             }
         }
+
+        String directoryPath = (choice == 1) ? "benchmark_series" : "text_file";
+        File directory = new File(directoryPath);
