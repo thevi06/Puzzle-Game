@@ -31,3 +31,8 @@ public class Main {
 
         // List all files in the directory
         File[] files = directory.listFiles();
+
+        if (files == null || files.length == 0) {
+            System.out.println("No text files found in the folder.");
+            return null;
+        }
