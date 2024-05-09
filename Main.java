@@ -39,3 +39,6 @@ public class Main {
 
         // Display available text files
         System.out.println("Available files:");
+        for (int i = 0; i < files.length; i++) {
+            System.out.println((i + 1) + ". " + files[i].getName());
+        }
