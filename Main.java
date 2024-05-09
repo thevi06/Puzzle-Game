@@ -22,3 +22,9 @@ public class Main {
 
         String directoryPath = (choice == 1) ? "benchmark_series" : "text_file";
         File directory = new File(directoryPath);
+
+        // Check if the directory exists
+        if (!directory.exists()) {
+            System.out.println("Directory '" + directoryPath + "' does not exist.");
+            return null;
+        }
