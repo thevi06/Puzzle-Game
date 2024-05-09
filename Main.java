@@ -36,3 +36,6 @@ public class Main {
             System.out.println("No text files found in the folder.");
             return null;
         }
+
+        // Display available text files
+        System.out.println("Available files:");
