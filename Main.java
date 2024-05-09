@@ -28,3 +28,6 @@ public class Main {
             System.out.println("Directory '" + directoryPath + "' does not exist.");
             return null;
         }
+
+        // List all files in the directory
+        File[] files = directory.listFiles();
