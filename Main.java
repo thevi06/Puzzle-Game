@@ -42,3 +42,7 @@ public class Main {
         for (int i = 0; i < files.length; i++) {
             System.out.println((i + 1) + ". " + files[i].getName());
         }
+
+        // Ask user to select a file
+        int fileIndex = 0;
+        while (fileIndex < 1 || fileIndex > files.length) {
