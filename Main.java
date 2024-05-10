@@ -46,3 +46,7 @@ public class Main {
         // Ask user to select a file
         int fileIndex = 0;
         while (fileIndex < 1 || fileIndex > files.length) {
+            System.out.print("Enter the number corresponding to the text file you want to select: ");
+            fileIndex = scanner.nextInt();
+            scanner.nextLine(); // Consume newline character
+        }
