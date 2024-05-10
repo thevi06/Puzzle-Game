@@ -49,4 +49,8 @@ public class Main {
             System.out.print("Enter the number corresponding to the text file you want to select: ");
             fileIndex = scanner.nextInt();
             scanner.nextLine(); // Consume newline character
+
+            if (fileIndex < 1 || fileIndex > files.length) {
+                System.out.println("Invalid input. Please select a valid number.");
+            }
         }
