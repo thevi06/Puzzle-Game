@@ -57,3 +57,6 @@ public class Main {
 
         // Selected file
         File selectedFile = files[fileIndex - 1];
+
+        char[][] grid;
+        Coordinate start;
