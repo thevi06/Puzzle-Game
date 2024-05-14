@@ -54,3 +54,6 @@ public class Main {
                 System.out.println("Invalid input. Please select a valid number.");
             }
         }
+
+        // Selected file
+        File selectedFile = files[fileIndex - 1];
