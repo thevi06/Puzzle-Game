@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 public class Main {
     public static void main(String[] args) {
@@ -60,3 +61,6 @@ public class Main {
 
         char[][] grid;
         Coordinate start;
+        List<String> lines = new ArrayList<>();
+        Coordinate finish;
+        List<Coordinate> rocks;
