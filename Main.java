@@ -64,3 +64,6 @@ public class Main {
         List<String> lines = new ArrayList<>();
         Coordinate finish;
         List<Coordinate> rocks;
+
+        if (selectedFile.isFile() && selectedFile.getName().endsWith(".txt")) {
+            System.out.println("Reading file " + selectedFile.getName());
