@@ -72,3 +72,9 @@ public class Main {
 
             // Read the lines in the text file and add them to an array list
             try (BufferedReader br = new BufferedReader(new FileReader(selectedFile))) {
+                lines.clear();
+                String line;
+                while ((line = br.readLine()) != null) {
+                    lines.add(line);
+                }
+            }
