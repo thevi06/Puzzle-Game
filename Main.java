@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 public class Main {
@@ -67,3 +69,6 @@ public class Main {
 
         if (selectedFile.isFile() && selectedFile.getName().endsWith(".txt")) {
             System.out.println("Reading file " + selectedFile.getName());
+
+            // Read the lines in the text file and add them to an array list
+            try (BufferedReader br = new BufferedReader(new FileReader(selectedFile))) {
