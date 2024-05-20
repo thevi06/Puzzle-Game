@@ -82,3 +82,7 @@ public class Main {
                 e.printStackTrace();
                 return null;
             }
+        } else {
+            System.out.println("Invalid file format.");
+            return null;
+        }
