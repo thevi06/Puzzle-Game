@@ -91,3 +91,7 @@ public class Main {
         int height = lines.size();
         int width = lines.get(0).length();
         grid = new char[height][width];
+        // Start, finish, and rocks
+        start = null;
+        finish = null;
+        rocks = new ArrayList<>();
