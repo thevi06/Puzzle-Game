@@ -86,3 +86,8 @@ public class Main {
             System.out.println("Invalid file format.");
             return null;
         }
+
+        // Creating a grid to hold the inputs
+        int height = lines.size();
+        int width = lines.get(0).length();
+        grid = new char[height][width];
