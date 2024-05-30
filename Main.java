@@ -95,3 +95,6 @@ public class Main {
         start = null;
         finish = null;
         rocks = new ArrayList<>();
+
+        for (int row = 0; row < height; row++) {
+            String line = lines.get(row);
