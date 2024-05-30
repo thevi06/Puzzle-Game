@@ -104,3 +104,10 @@ public class Main {
 
                 if (cell == 'S' || cell == 's') {
                     start = new Coordinate(row, col);
+                } else if (cell == 'F' || cell == 'f') {
+                    finish = new Coordinate(row, col);
+                } else if (cell == '0') {
+                    rocks.add(new Coordinate(row, col));
+                }
+            }
+        }
