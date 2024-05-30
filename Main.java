@@ -101,3 +101,6 @@ public class Main {
             for (int col = 0; col < width; col++) {
                 char cell = line.charAt(col);
                 grid[row][col] = cell;
+
+                if (cell == 'S' || cell == 's') {
+                    start = new Coordinate(row, col);
