@@ -98,3 +98,6 @@ public class Main {
 
         for (int row = 0; row < height; row++) {
             String line = lines.get(row);
+            for (int col = 0; col < width; col++) {
+                char cell = line.charAt(col);
+                grid[row][col] = cell;
