@@ -111,3 +111,6 @@ public class Main {
                 }
             }
         }
+        return new Map(grid, start, finish, rocks);
+    }
+}
